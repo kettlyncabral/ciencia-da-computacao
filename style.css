@@ -34,12 +34,6 @@ nav a{
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
-async function visualizarInformações (){
-    const res = await fetch (url)
-    const dados = await rest.json()
-    const paragrafo = document.createElement('p')
-    paragrafo.innerHTML = 'você sabia que o mundo tem $(dados.total_pessoas_mundo) de pessoas e que aproximadamente ${dados.total_pessoas_conectadas} estão conectadas em alguma rede social e passam em média ${dados.tempo_medio} horas conectadas.'
-    
-}
+
 
 
